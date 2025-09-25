@@ -240,7 +240,7 @@ function bulk_export_timesheets(listview) {
             let timesheet_names = selected.map(item => item.name);
 
             frappe.call({
-                method: 'gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.bulk_export_timesheets',
+                method: 'gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.bulk_export_timesheets',
                 args: {
                     timesheet_names: timesheet_names,
                     export_format: values.export_format,
@@ -307,7 +307,7 @@ function duplicate_timesheet_dialog(frm) {
         primary_action_label: __('Duplicate'),
         primary_action: function(values) {
             frappe.call({
-                method: 'gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.duplicate_timesheet',
+                method: 'gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.duplicate_timesheet',
                 args: {
                     source_timesheet_name: frm.doc.name,
                     target_from_date: values.target_from_date,
@@ -331,7 +331,7 @@ function duplicate_timesheet_dialog(frm) {
 // Function to view approvals
 function view_approvals(frm) {
     frappe.call({
-        method: 'gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.get_timesheet_approvals',
+        method: 'gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.get_timesheet_approvals',
         args: {
             timesheet_name: frm.doc.name
         },

@@ -70,9 +70,9 @@ doctype_list_js = {"WeeklyTimesheet": "public/js/weekly_timesheet_list.js"}
 # This helps Frappe properly route and display the DocType
 doc_events = {
     "WeeklyTimesheet": {
-        "validate": "gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.validate",
-        "before_save": "gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.before_save",
-        "on_submit": "gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.on_submit"
+        "validate": "gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.validate",
+        "before_save": "gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.before_save",
+        "on_submit": "gnapi_customizations.doctype.weekly_timesheet.weekly_timesheet.on_submit"
     }
 }
 

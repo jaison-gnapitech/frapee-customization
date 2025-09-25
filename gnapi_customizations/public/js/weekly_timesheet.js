@@ -181,7 +181,7 @@ function validate_week_range(frm) {
 function load_activities_for_project(frm, row) {
 	if (row.project) {
 		frappe.call({
-			method: 'gnapi_customizations.gnapi_customizations.doctype.weekly_timesheet_detail.weekly_timesheet_detail.get_project_activities',
+			method: 'gnapi_customizations.doctype.weekly_timesheet_detail.weekly_timesheet_detail.get_project_activities',
 			args: {
 				project: row.project
 			},
