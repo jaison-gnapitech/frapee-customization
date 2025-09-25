@@ -39,7 +39,7 @@ bench new-site mysite.localhost \
 bench --site mysite.localhost install-app hrms
 
 # Install gnapi_customizations (custom app)
-bench get-app gnapi_customizations https://github.com/vamsikrishna-gnapitech/gnapi_customizations.git
+bench get-app gnapi_customizations hhttps://github.com/jaison-gnapitech/frapee-customization.git
 bench --site mysite.localhost install-app gnapi_customizations
 
 # Setup configs
