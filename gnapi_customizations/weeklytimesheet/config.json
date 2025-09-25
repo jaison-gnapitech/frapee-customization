@@ -1,0 +1,14 @@
+{
+  "app_name": "WeeklyTimesheet",
+  "app_title": "Weekly Timesheet",
+  "app_description": "Comprehensive weekly timesheet management system for tracking project activities, generating reports, and managing approvals.",
+  "app_color": "#1f77b4",
+  "app_icon": "octicon octicon-calendar",
+  "app_version": "1.0.0",
+  "app_publisher": "Gnapi Customizations",
+  "app_email": "support@gnapi.com",
+  "doctype": "WeeklyTimesheet",
+  "main_module": "WeeklyTimesheet",
+  "module_category": "Project Management",
+  "module_help": "WeeklyTimesheet helps you track and manage employee time entries for projects and activities. Features include weekly time tracking, project allocation, approval workflows, and comprehensive reporting."
+}
