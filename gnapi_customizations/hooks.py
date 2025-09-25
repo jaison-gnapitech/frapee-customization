@@ -105,7 +105,7 @@ get_module_data = [
     {
         "module_name": "WeeklyTimesheet",
         "category": "Modules",
-        "label": _("Weekly Timesheet"),
+        "label": "Weekly Timesheet",
         "color": "#1f77b4",
         "icon": "octicon octicon-calendar",
         "type": "module",
