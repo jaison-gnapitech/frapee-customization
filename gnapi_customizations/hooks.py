@@ -1,3 +1,5 @@
+from frappe import _
+
 app_name = "gnapi_customizations"
 app_title = "Gnapi Customizations"
 app_publisher = "Vamsi Krishna Kothuru"
@@ -12,8 +14,8 @@ fixtures = [
         {"doctype": "Social Login Key", "filters": [["provider_name", "in", ["Office 365"]]]},
         {"doctype": "Property Setter", "filters": [["doc_type", "=", "Employee"]]},
         {"doctype": "Server Script", "filters": [["module", "=", "Gnapi Customizations"]]},
-        {"doctype": "Weekly Timesheet", "filters": [["docstatus", "!=", 2]]},
-        {"doctype": "Weekly Timesheet Detail", "filters": [["docstatus", "!=", 2]]}
+        {"doctype": "Module Def", "filters": [["module_name", "=", "WeeklyTimesheet"]]},
+        {"doctype": "Page", "filters": [["page_name", "=", "weeklytimesheet"]]}
 ]
 # Apps
 # ------------------
