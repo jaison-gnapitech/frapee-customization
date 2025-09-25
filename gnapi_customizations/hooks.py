@@ -123,6 +123,20 @@ app_modules = [
 # This adds WeeklyTimesheet to the navigation menu
 get_navigation = "gnapi_customizations.weeklytimesheet.navigation.get_data"
 
+# Module configuration
+# This ensures the module is properly registered
+modules = [
+    {
+        "module_name": "WeeklyTimesheet",
+        "category": "Modules",
+        "label": "Weekly Timesheet",
+        "color": "#1f77b4",
+        "icon": "octicon octicon-calendar",
+        "type": "module",
+        "description": "Manage weekly timesheets and track project activities"
+    }
+]
+
 # Svg Icons
 # ------------------
 # include app icons in desk

@@ -28,3 +28,15 @@ def get_data():
             ]
         }
     ]
+
+def get_module_data():
+    """Return module data for WeeklyTimesheet"""
+    return {
+        "module_name": "WeeklyTimesheet",
+        "category": "Modules",
+        "label": _("Weekly Timesheet"),
+        "color": "#1f77b4",
+        "icon": "octicon octicon-calendar",
+        "type": "module",
+        "description": _("Manage weekly timesheets and track project activities")
+    }
